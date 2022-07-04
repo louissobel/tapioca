@@ -1392,6 +1392,9 @@ JSON::State = JSON::Ext::Generator::State
 # For backwards compatibility
 JSON::UnparserError = JSON::GeneratorError
 
+# Adds a `byebug` method to the Kernel module.
+#
+# Dropping a `byebug` call anywhere in your code, you get a debug prompt.
 module Kernel
   private
 
